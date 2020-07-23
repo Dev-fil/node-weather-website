@@ -1,0 +1,157 @@
+body {
+     color: #333333; 
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('../img/bkg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+      
+}
+
+.main-content {
+    flex-grow: 1;
+}
+.header1{
+    margin-left: 45px;
+    color:black;
+    font-family: 'Barrio';font-size: 22px;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #333333;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 250px;
+}
+.background {
+    background: url(klematis.jpg) repeat;
+    border: 2px solid black;
+  }
+  
+  .transbox {
+    margin: 30px;
+    background-color:  #ffffff00;
+    border: 1px solid black;
+    opacity: 1.3;
+  }
+  
+  .transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: black;
+
+    
+  }
+  .transbox form{
+      margin-left: 35px;
+
+  }
+  .h1{
+    font-family: 'Days One';font-size: 23px;
+  
+
+  }
+  .p2{
+    font-family: 'Kalam';font-size: 18px;
+    background-color: #E8C9CC;
+  opacity: 50;
+
+  }
+  .p1{
+    font-family: 'Days One';font-size: 21px;
+
+  }
+  
+.button5 {
+    background-color: #AB8592;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 15px;
+    border-radius: 5px;
+   
+  }
+  
+  .button5:hover {
+    background-color: #555555;
+    color: white;
+  }
+  
+  
+  .transbox form input{
+      background-color: #AB8592;
+  }
+  input[type=text] {
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+  .foot{
+      display: flex;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  .header3{
+    margin-left: 190px;
+    color:black;
+    font-family: 'Barrio';font-size: 22px;
+  }
+  .transbox img{
+    border: 2px solid black;
+      margin-left: 180px;
+      border-radius: 500px;
+      width: 170px;
+      height: 170px;
+      padding: 5px 5px;
+      
+  }
+  .transbox p span{
+    font-family: 'Courgette';font-size: 34px;
+    margin-left: 170px;
+    color: thistle;
+}
+.header4{
+  margin-left: 100px;
+  color:black;
+  font-family: 'Barrio';font-size: 22px;
+}
+.t{
+  font-family: 'Kalam';font-size: 20px;
+  color: black;
+  font-weight: 800;
+  background-color: 	#D3D3D3; 
+
+}
+.i{
+background-color: lightgrey;  
+}

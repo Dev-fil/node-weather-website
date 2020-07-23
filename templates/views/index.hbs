@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Weather Connect</title>
+    <link rel="icon" href="/img/icon.png">
+    <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Beth Ellen' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Knewave' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Carter One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Days One' rel='stylesheet'>
+
+</head>
+
+<body >
+    <div class="main-content">
+       <div class ='header1'>
+        {{>header}}
+        </div>    
+    <div class="background">
+  <div class="transbox">
+    <p class="h1" style="color: black;">Enter location to get forecast!</p>
+
+  <form>
+        {{!-- <input style="align-content: center;"  placeholder="Location"> --}}
+        <input type="text"placeholder="Location">
+        {{!-- <button>search</button> --}}
+        <button class="button button5"><b>search</b></button>
+    </form>
+<div class ="p1">
+<p style="color:black;" id='msg1'></p>
+</div>
+<div class="p2">
+<p style="color:black;"  id="msg2"></p>
+</div>
+
+
+  </div>
+</div>
+
+    </div>
+
+  
+
+    {{>footer}}
+
+
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
