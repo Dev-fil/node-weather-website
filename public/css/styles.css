@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url('../img/bkg.jpg');
+    background-image: url('../img/bkg9.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -80,7 +80,7 @@ header a {
   }
   .p2{
     font-family: 'Kalam';font-size: 18px;
-    background-color: #E8C9CC;
+    background-color: #99D1CB;
   opacity: 50;
 
   }
@@ -90,7 +90,7 @@ header a {
   }
   
 .button5 {
-    background-color: #AB8592;
+    background-color: #BCDBC9;
     color: black;
     border: 2px solid black;
     padding: 5px 15px;
@@ -99,13 +99,14 @@ header a {
   }
   
   .button5:hover {
-    background-color: #555555;
+    background-color: #098FA8;
     color: white;
+    cursor: pointer;
   }
   
   
   .transbox form input{
-      background-color: #AB8592;
+      background-color: #BCDBC9;
   }
   input[type=text] {
     padding: 5px 5px;
@@ -138,7 +139,7 @@ header a {
   .transbox p span{
     font-family: 'Courgette';font-size: 34px;
     margin-left: 170px;
-    color: thistle;
+    color: black;
 }
 .header4{
   margin-left: 100px;
@@ -149,9 +150,9 @@ header a {
   font-family: 'Kalam';font-size: 20px;
   color: black;
   font-weight: 800;
-  background-color: 	#D3D3D3; 
+  background-color: 	#99D1CB; 
 
 }
 .i{
-background-color: lightgrey;  
+background-color:#99D1CB;  
 }

@@ -15,14 +15,14 @@ else if( response.body.error){
 
 }
 else{
-callback(undefined,'It is currently '+
-    response.body.current.temperature+' degrees outside,but feels like its '+
+callback(undefined,'Weather : '+response.body.current.weather_descriptions +' over there. It is currently '+
+    response.body.current.temperature+' degrees F outside,but feels like its '+
     response.body.current.feelslike+' degrees.  Pressure is '+
-    response.body.current.pressure+' and precipitation is '+
-    response.body.current.precip+'\n. Measured humidity is '+
-    response.body.current.humidity+' and cloudcover is '+
-    response.body.current.cloudcover+ '\n. Visibility will remain around '+
-    response.body.current.visibility
+    response.body.current.pressure+' MB(millibar) and precipitation is '+
+    response.body.current.precip+'\n.MM(millimeters) Measured humidity is '+
+    response.body.current.humidity+' % and cloudcover is '+
+    response.body.current.cloudcover+ ' % . Visibility will remain around '+
+    response.body.current.visibility+' km(killometers).'
     //weather_description:response.body.current.weather_descriptions
 
 )
